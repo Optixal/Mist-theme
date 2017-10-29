@@ -1,6 +1,26 @@
 # Mist
 Mist GNOME-Shell theme
 
+## Forked Version
+
+![Theme with Terminal](screenshots/screenshot1.png)
+
+![Theme with Calendar](screenshots/screenshot2.png)
+
+Arc x Arctic Apricity inspired gnome-shell theme. Clear, minimal, dark.
+
+Themes inspired from:
+* Mist - https://github.com/theRealPadster/Mist-theme
+* Arc - https://github.com/horst3180/arc-theme
+* Arctic Apricity - https://github.com/agajews/ArcticApricity
+
+Complementary:
+* GTK Theme: Arc Theme - https://github.com/horst3180/arc-theme
+* Vim Color: Dracula - https://github.com/dracula/vim
+* Icons: Vibrancy - `sudo apt-get install vibrancy-colors`
+
+## Original
+
 Inspired by the look of the GDM3 login manager, the goal is to have a theme that is as fully transparent and out-of-the-way as possible. This means a panel that blends right into the desktop, simple flat, transparent buttons, and the bare minimum when it comes to menus and elements that overlap the workspace.
 
 ![Preview](http://orig00.deviantart.net/a21a/f/2016/113/4/e/mist_by_therealpadster-d8gorck.png)

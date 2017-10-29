@@ -22,7 +22,7 @@
 /* default text style */
 stage {
     font-family: cantarell, sans-serif;
-    font-size: 11pt;
+    font-size: 10pt;
     color: white;
 }
 
@@ -155,9 +155,9 @@ StScrollBar StButton#vhandle:active {
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
     -arrow-border-radius: 8px;
-    -arrow-background-color: rgba(0,0,0,0.8);
+    -arrow-background-color: rgba(53, 57, 69, 0.95);
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(255,255,255,0.15);
+    -arrow-border-color: rgba(0, 0, 0, 0.4);
     -arrow-base: 24px;
     -arrow-rise: 11px;
 }
@@ -216,11 +216,11 @@ StScrollBar StButton#vhandle:active {
 }
 
 .popup-menu-item:ltr {
-    padding: .4em 1.75em .4em 0em;
+    padding: .7em 1.75em .7em 0em;
 }
 
 .popup-menu-item:rtl {
-    padding: .4em 0em .4em 1.75em;
+    padding: .7em 0em .7em 1.75em;
 }
 
 .popup-menu-item:active {
@@ -242,7 +242,7 @@ StScrollBar StButton#vhandle:active {
     /*TODO - tweak size, colour, fix padding?*/
     margin: 6px 64px;
     background-color: transparent;
-    border-color: #333;
+    border-color: #434856;
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
@@ -563,7 +563,7 @@ StEntry {
 #panel { /*looks best with no background*/
     background-color: transparent;
     font-weight: bold;
-    height: 1.86em;
+    height: 2em;
 }
 
 #panel.unlock-screen,
@@ -707,7 +707,7 @@ StEntry {
     background-image: none;
     border-image: none;
     color: white;
-    text-shadow: black 0px 1px 4px;
+    /*text-shadow: black 0px 1px 4px;*/
 }
 
 .panel-status-button:active,
@@ -1405,7 +1405,7 @@ find what's theming them and make sure they're all the same*/
 .calendar {
     /* was .2em 1.75em .2em 1.75em,
     but this hack gets rid of the horizontal separator*/
-    padding: .2em 1.75em .4em 1.75em;
+    padding: .2em 1.75em .4em 0em;
     spacing-rows: 0px;
     spacing-columns: 0px;
 }
@@ -2686,12 +2686,12 @@ need to reset default to zero since middle ones curve now*/
 #panel.unlock-screen .panel-button,
 .system-status-icon, /*TODO - not working anymore???*/
 .popup-menu-arrow { /*perma-shadow for readability*/
-    icon-shadow: black 0px 1px 4px;
-    text-shadow: black 0px 1px 4px;
+    /*icon-shadow: black 0px 1px 4px;*/
+    /*text-shadow: black 0px 1px 4px;*/
 }
 
 .popup-menu-arrow {
-    icon-shadow: rgba(0,0,0,0.6) 0px 0.5px 4px; /*TODO ish - for some reason shadow is darker than the rest, this seems okay*/
+    /*icon-shadow: rgba(0,0,0,0.6) 0px 0.5px 4px; [>TODO ish - for some reason shadow is darker than the rest, this seems okay<]*/
 }
 
 /* Tile previews */
@@ -2983,13 +2983,13 @@ TODO - won't crop images, but works for transparent with background colour*/
 
 /*panel button for currently-running app*/
 .panel-status-menu-box {
-    icon-shadow: 0px 1px 4px black;
-    text-shadow: 0px 1px 4px black;
+    /*icon-shadow: 0px 1px 4px black;*/
+    /*text-shadow: 0px 1px 4px black;*/
 }
 
 /*icon for currently-running app*/
 .panel-status-menu-box:first-child *:first-child  {
-    icon-shadow: 0px 1px 4px black;
+    /*icon-shadow: 0px 1px 4px black;*/
 }
 
 .notification-button {
