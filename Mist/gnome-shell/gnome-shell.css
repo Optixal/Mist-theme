@@ -940,9 +940,9 @@ StEntry {
     text-shadow: black 0px 1px 2px;
 
     /*border-radius: 8px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(53, 57, 69, 0.95);
     border-width: 1px;
-    border-color: rgba(255,255,255,0.15);*/
+    border-color: rgba(0, 0, 0, 0.4);*/
 }
 
 /* Search Box */
@@ -1183,7 +1183,7 @@ StEntry {
 }
 
 .list-search-result:hover .list-search-result-description {
-    text-shadow: rgba(0,0,0,0.8) 0px 1px 2px;
+    text-shadow: rgba(53, 57, 69, 0.95) 0px 1px 2px;
 }
 
 .show-apps {
@@ -1267,7 +1267,7 @@ find what's theming them and make sure they're all the same*/
 /* LookingGlass */
 
 #LookingGlassDialog {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(53, 57, 69, 0.95);
     spacing: 4px;
     padding: 4px;
     border: 2px solid grey;
@@ -1394,7 +1394,7 @@ find what's theming them and make sure they're all the same*/
 .calendar-vertical-separator {
     -stipple-width: 0px;
     -stipple-color: #505050;
-    background-color: rgba(255,255,255,0.15);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 1px;
 }
 
@@ -1735,7 +1735,7 @@ can I make just the innermost one do things, so it's not huge?*/
 /* Message Tray */
 #message-tray {
     background: #111;
-    border-top: 1px solid rgba(255,255,255,0.15);
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
     height: 72px;
 }
 
@@ -1767,8 +1767,8 @@ can I make just the innermost one do things, so it's not huge?*/
 
 .notification {
     border-radius: 8px 8px 0px 0px;
-    border: 1px solid rgba(255,255,255,0.15); /* TODO !!! - notification popups double-border on opened chats?, removable, etc. (try setting to red or transparent*/
-    background: rgba(0,0,0,0.8);
+    border: 1px solid rgba(0, 0, 0, 0.4); /* TODO !!! - notification popups double-border on opened chats?, removable, etc. (try setting to red or transparent*/
+    background: rgba(53, 57, 69, 0.95);
     padding: 8px 8px 4px 8px;
     spacing-rows: 4px;
     spacing-columns: 10px;
@@ -1800,9 +1800,9 @@ can I make just the innermost one do things, so it's not huge?*/
 
 .summary-boxpointer {
     -arrow-border-radius: 8px;
-    -arrow-background-color: rgba(0,0,0,0.8);
+    -arrow-background-color: rgba(53, 57, 69, 0.95);
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(255,255,255,0.15);
+    -arrow-border-color: rgba(0, 0, 0, 0.4);
     -arrow-base: 24px;
     -arrow-rise: 12px;
     color: white;
@@ -2078,7 +2078,7 @@ can I make just the innermost one do things, so it's not huge?*/
 
     /* NOTE - taken from .switcher-list below */
     background: rgba(0,0,0,0.4);
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 24px;
     padding: 20px;
 }
@@ -2099,7 +2099,7 @@ can I make just the innermost one do things, so it's not huge?*/
 /*get rid of padding around outlined box, add shadow(s)?*/
 .switcher-list {
     background: rgba(0,0,0,0.4);
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 24px;
     padding: 20px;
 }
@@ -2168,8 +2168,8 @@ can I make just the innermost one do things, so it's not huge?*/
 }
 
 .workspace-switcher-container {
-    background: rgba(0,0,0,0.8);
-    border: 1px solid rgba(255,255,255,0.15);
+    background: rgba(53, 57, 69, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 24px;
     padding: 0px;
 }
@@ -2224,8 +2224,8 @@ can I make just the innermost one do things, so it's not huge?*/
 
 .modal-dialog {
     border-radius: 24px;
-    background-color: rgba(0,0,0,0.8);
-    border: 1px solid rgba(255,255,255,0.15);
+    background-color: rgba(53, 57, 69, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.4);
 
     padding-right: 42px;
     padding-left: 42px;
@@ -2585,8 +2585,8 @@ need to reset default to zero since middle ones curve now*/
 }
 
 .keyboard-key:active {
-    background-gradient-start: rgba(255,255,255,0.15);
-    background-gradient-end: rgba(255,255,255,0.15);
+    background-gradient-start: rgba(0, 0, 0, 0.4);
+    background-gradient-end: rgba(0, 0, 0, 0.4);
 }
 
 .keyboard-subkeys {
@@ -2594,7 +2594,7 @@ need to reset default to zero since middle ones curve now*/
     -arrow-border-radius: 10px;
     -arrow-background-color: rgba(0,0,0,0.85); /*TODO - keep in line with above*/
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(255,255,255,0.15);
+    -arrow-border-color: rgba(0, 0, 0, 0.4);
     -arrow-base: 20px;
     -arrow-rise: 10px;
     -boxpointer-gap: 5px;
@@ -2733,8 +2733,8 @@ need to reset default to zero since middle ones curve now*/
 
 /*legacy-tray */
 .legacy-tray {
-  background-color: rgba(0,0,0,0.8);
-  border: 1px solid rgba(255,255,255,0.15);
+  background-color: rgba(53, 57, 69, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.4);
   border-bottom-width: 0px;
 }
 .legacy-tray:ltr {
@@ -2776,9 +2776,9 @@ need to reset default to zero since middle ones curve now*/
 }
 
 .notification-banner {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(53, 57, 69, 0.95);
     border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(0, 0, 0, 0.4);
     color:  #e6e6e6;
 }
 
@@ -2941,10 +2941,10 @@ need to reset default to zero since middle ones curve now*/
 }
 .message:hover,
 .message:focus {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(53, 57, 69, 0.95);
 }
 /*to make notification background invisible in side-pane,
-since it has the rgba(0,0,0,0.8) background already,
+since it has the rgba(53, 57, 69, 0.95) background already,
 otherwise it layers on top*/
 .message-list-sections .message {
     background-color: transparent;
